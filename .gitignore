@@ -1,0 +1,88 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Dependencies
+/node_modules
+/pnpm-lock.yaml
+
+# Next.js
+/.next/
+/out/
+/.next/cache
+
+# Production builds
+/build
+/dist
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+*.log
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.template
+
+# Keep .env.example but ignore actual .env files
+!.env.example
+
+# Vercel
+.vercel
+.vercel-builds
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Testing
+/coverage
+.nyc_output
+junit.xml
+
+# IDE and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root directory
+*.tmp
+*.temp
+cache/
+.temp/
+
+# Archive files (keep Archive.zip mentioned in git status)
+*.zip
+*.tar.gz
+*.rar
+
+# Claude AI
+.claude/
+
+# Temporary scripts and shell files
+*.sh
+*.bat
+*.cmd
+*.ps1
+unwanted*
+
+# Git-specific
+.git/
+
+
+# Lock files (keeping package-lock.json tracked)
+# package-lock.json
