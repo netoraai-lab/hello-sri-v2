@@ -71,7 +71,7 @@ export async function POST(request: NextRequest) {
       )
     }
 
-    const geminiUrl = `https://aiplatform.googleapis.com/v1/projects/${projectId}/locations/global/publishers/google/models/gemini-2.5-flash-preview-09-2025:generateContent`
+    const geminiUrl = `https://aiplatform.googleapis.com/v1/projects/${projectId}/locations/global/publishers/google/models/gemini-3-pro-preview:generateContent`
 
     const contents = []
 
